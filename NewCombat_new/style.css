@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(images/Thumbnail.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw; */
+}
+.PageAcceuil{
+    background-image: url(images/Thumbnail.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h1,p{
+    color: beige;
+}
+
+.selecChamp{
+    /* background-color: blue; */
+    /* height: 100%;
+    width: 100%; */
+    /* display: flex; */
+    display: none;
+    background-image: url(images/decors.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* justify-content: space-between; */
+
+}
+.champG{
+    height: 100%;
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+}
+.coteG{
+    display: flex;
+    /* flex-direction:column ; */
+    align-items: space-between;
+}
+.champD{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* justify-content: flex-end */
+
+    
+}
+
+.champD div{
+    background-position: right;
+}
+.btnL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecChampD{
+    height: 70%;
+    width: 50%;
+    /* display: flex; */
+    display: none;
+}
+
+.Garche{
+background-image: url(images/archeG.png);
+width: auto;
+height: 200px;
+background-size: contain;
+/* display: none; */
+background-repeat: no-repeat;
+
+}
+.Gguerrier{
+    background-image: url(images/guerrierG.png);
+    width: auto;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.Gmage{
+    background-image: url(images/mageG.png);
+    width: auto;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.Gpretre{
+    background-image: url(images/prêtreG.png);
+    width: auto;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.Darche{
+    background-image: url(images/archeD.png);
+    width: auto;
+    height: 200px;
+    background-size: contain;
+    /* display: none; */
+    background-repeat: no-repeat;
+    }
+    .Dguerrier{
+        background-image: url(images/guerrierD.png);
+        width: auto;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+    .Dmage{
+        background-image: url(images/mageD.png);
+        width: auto;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    
+    }
+    .Dpretre{
+        background-image: url(images/prêtreD.png);
+        width: auto;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    
+    }
+
+/* .imgC{
+    background-image: url(images/archeG.png);
+    width: 300px;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 80%;
+    /* top: 50%; */
+    /* display: none; */
+    /* background-color: red; */
+
+/* } */
+/* .imgC2{
+    background-image: url(images/mageD.png);
+    width: 300px;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* bottom: 70%;
+    display: none; 
+
+} */
+.combat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 300px;
+}
+.tt{
+    display: none;
+    background-image: url(images/decors.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    /* justify-content:center ; */
+    align-items: end;
+    grid-template-columns: repeat(2, 1fr);
+}
+.imgPlayer{
+    background-image: url('images/mageD.png');
+    height: 40%;
+    width: 30%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.imgPlayer1{
+    background-image: url('images/mageD.png');
+/* align-self: flex-start; */
+    justify-self:left ;
+
+
+}
+.imgPlayer2{
+    background-image: url('images/mageG.png');
+    justify-self: right;
+}
+.battle{
+    display: none;
+    background-image: url('images/decors.gif');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.imgAtkJ1,.imgHpJ1,.imgAtkJ2,.imgHpJ2{
+    height: 30px;
+    width: 30px;
+}
+.statJ1,.statJ2{
+    display: flex;
+    /* justify-content: space-between; */
+}
